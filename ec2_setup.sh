@@ -5,7 +5,7 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 
 #install required tools
-sudo apt-get install -y python-software-properties python g++ make vim git nodejs openssh-server openssh-client
+sudo apt-get install -y emacs python-software-properties python g++ make vim git nodejs openssh-server openssh-client
 
 #install and login to heroku
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
